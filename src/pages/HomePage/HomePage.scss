@@ -1,0 +1,21 @@
+.home-page-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 24px;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  &__filters-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 16px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+  }
+}
